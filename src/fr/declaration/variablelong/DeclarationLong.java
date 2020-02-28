@@ -6,11 +6,11 @@ public class DeclarationLong {
 		
 		long a = 3000L;
 		long b = 3000;
-		// 3000 est un int 3000L est un long
-		long c = 3000000000L;
-		// En enlevant le L java transforme le nombre en int, or 3000000000 est trop grand pour un int
 		
-		//L et l sont pareils
+		long c = 3000000000L;
+		/**Le caractère L (ou l) est obligatoire pour les litteraux dont la valeur 
+		 * est supérieure à la limite max des int (2.1 milliards).
+		 */
 	}
 
 }
